@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: #F9A825;
+  background: #18222f;
+  font-family: 'Roboto Mono', monospace;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progress {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background: #fff5;
+}
+
+.progress-done {
+  width: 0;
+  opacity: 0;
+  height: 100%;
+  font-family: cursive;
+  color: #283745;
+  border-radius: 20px;
+  box-shadow: 0 3px 3px -5px #00FF33, 0 2px 5px #00FF33;
+
+  transition: 1.3s ease;
+  background: linear-gradient(to left, #00FF33, #00FF99);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
